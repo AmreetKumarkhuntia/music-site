@@ -2,7 +2,6 @@ import react from "react";
 import spotify from './css/logo-stuff/Spotify.svg';
 import Youtube from './css/logo-stuff/Youtube.svg';
 import apple from './css/logo-stuff/applemusic.svg';
-import deezer from './css/logo-stuff/deezer.svg';
 import itunes from './css/logo-stuff/itunes_store.svg';
 import insta from './css/logo-stuff/instagram.svg';
 import facebook from './css/logo-stuff/facebook.svg';

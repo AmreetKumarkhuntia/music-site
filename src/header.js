@@ -1,10 +1,7 @@
 import me from './css/logo-stuff/ME.svg';
-import { render } from '@testing-library/react';
 import { Component } from 'react';
 import song from './music/Ghost.mp3';
 import ReactPlayer from 'react-player';
-
-const audioclips=[{sound: {song},track: "Ghost"}];
 
 class Header extends Component{
 
@@ -20,7 +17,7 @@ class Header extends Component{
                 </div>
             </div>
                 <div className="Right_maincont-header">
-                <img src={me} alt="error loading image" />
+                <img src={me} alt="error_loading_image" />
                 </div>
             </div>);
     }
