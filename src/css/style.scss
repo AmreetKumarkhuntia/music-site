@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    margin: 0%;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    background-image: url(./logo-stuff/background.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+//header
+.main_container-header{
+    color: white;
+    width: 526px;
+    margin: auto;
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+    .left_maincont-header{
+        width: 405px;
+        padding-left: 4px;
+        padding-right: 5px;
+        h3{
+        font-style: normal;
+        font-weight: 400;
+        size: 24px;
+        margin: 0%;
+        }
+        h1{
+            margin: 0%;
+            size: 48px;
+            font-weight: 400;
+        }
+        .preview{
+            margin-top: 5px;
+            display: flex;
+            flex-direction: column;
+            .state{
+                display: block;
+                width: 50px;
+                height: 50px;
+            }
+            .state:hover{
+                cursor: pointer;
+            }
+            h3{
+                padding-bottom: 10px;
+                padding-left: 0px;
+            }
+            border-right: 3px solid #FFFFFF;
+            #reactplayer{
+                height: 100px;
+                width: 100px;
+            }
+        }
+    }
+    .Right_maincont-header{
+        img{
+            height: 121px;
+            width: 121px;
+            padding-top: 5px;
+        }
+    }
+}
+//body-links
+.links{
+    width: 506px;
+    margin: auto;
+    margin-top: 46px;
+    background: #FFFFFF;
+    box-shadow: 7px 9px 10px 2px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: justify;
+    .button{
+        border-bottom: 1px solid #b0b0b073;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px 10px 0px;
+        img{
+            padding-bottom: 5px;
+        }
+        a{
+            font-family: Roboto Mono;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 24px;
+            display: inline-block;
+            padding: 14px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border: 1px solid black;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            color: black;
+            transition-property: all;
+            transition-duration: 0.3s;
+        }
+        a:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+    #itunes{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
